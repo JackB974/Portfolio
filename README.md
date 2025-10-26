@@ -1,5 +1,5 @@
 # Portfolio
 My online resume
 
-accueil.html
+index.html
 style.css
