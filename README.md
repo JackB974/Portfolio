@@ -12,7 +12,7 @@ Open `index.html` locally or serve this folder with any static-file server. The 
 - The pages now cover skills, studies, self-directed learning, selected work experience, and the hackathon approach. Course listings describe learning, not automatically earned certifications.
 - The challenge link points to [Agorize](https://hackathons-artefactadoptai.agorize.com/fr/challenges/hackathon-desinformation-souverainete-democratique1).
 - Older page URLs are small redirects to the new site, so existing bookmarks continue to work.
-- The site intentionally has no photo, résumé, phone number, or email address. Contact links go to GitHub and Agorize.
+- The site intentionally has no photo, résumé, phone number, or email address. The team-finding link goes to Agorize; the public GitHub profile is not linked.
 - Before adding personal information, remember that GitHub Pages is public and repository history can retain removed files.
 
 ## Publishing
