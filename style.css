@@ -145,16 +145,6 @@ section {
 .japonais { width: 75%; background-color: #84cc16; }
 .espagnol { width: 25%; background-color: #65a30d; }
 
-/* Profile picture */
-.profil {
-    display: block;
-    margin: 0 auto;
-    width: 35%;
-    height: 45vh;
-    object-fit: cover;
-    border-radius: 25px;
-}
-
 /* Divider */
 .vertical_line {
     width: 1px;
