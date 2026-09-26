@@ -50,11 +50,34 @@
     </section>
 
     <section class="content-section" id="projects" aria-labelledby="projects-title">
-      <h2 id="projects-title">Personal projects</h2>
-      <p class="section-intro">My personal projects extend my technical, scientific and artistic interests. The applications are not public.</p>
+      <h2 id="projects-title">Projects</h2>
+      <p class="section-intro">A selection of technical, scientific and artistic projects. Some are private prototypes or still in development.</p>
       <div class="project-list">
+        <article class="project project-featured">
+          <h3>Bookworm · NLP book analysis</h3>
+          <p>A command-line tool for analysing public-domain works from Project Gutenberg. Its algorithmic core uses no LLM or analysis API: TF-IDF weighting, cosine similarity and extractive summarisation are implemented from scratch, while spaCy is used deliberately for named-entity recognition.</p>
+          <ul class="project-points">
+            <li>Lexical diversity and named entities</li>
+            <li>Similarity across 21 books and section-level topics</li>
+            <li>Extractive summary, complete card and local cache</li>
+          </ul>
+          <p class="project-meta">Epitech project · Python · classical NLP · TF-IDF</p>
+        </article>
+        <article class="project project-featured">
+          <h3>Joja · grocery-order analysis and prediction</h3>
+          <p>Analysis of 32.4 million Instacart product-order rows, from data validation and optimisation to presentation through an interactive Dash and Plotly dashboard.</p>
+          <ul class="project-points">
+            <li>Exploratory analysis of 3.4 million orders</li>
+            <li>Frequency-and-recency next-basket prediction</li>
+            <li>Product associations using support, confidence and lift</li>
+          </ul>
+          <p class="project-meta">Data analysis · prediction · Dash · Plotly · Parquet</p>
+        </article>
         <article class="project"><h3>RSS reader</h3><p>Collects articles, flags duplicates, produces AI summaries and compares how topics change across a collection of sources.</p><p class="project-meta">Monitoring · data · LLMs</p></article>
         <article class="project"><h3>Document manager</h3><p>Indexes local documents, supports full-text search and flags classifications that need manual review.</p><p class="project-meta">Search · indexing · human review</p></article>
+        <article class="project"><h3>Stockety Cricket</h3><p>A market-study dashboard and ML lab comparing baselines, rules and logistic-regression models through walk-forward backtesting.</p><p class="project-meta">Data · time series · ML evaluation</p></article>
+        <article class="project"><h3>Vigil</h3><p>A local dependency-audit prototype for coding assistants, with OSV checks, advisory-freshness tracking and reports that state their coverage limits.</p><p class="project-meta">Security · dependencies · MCP</p></article>
+        <article class="project"><h3>Sentinel</h3><p>A monitoring and reporting desk for containers, HTTP services, PostgreSQL databases and host metrics through a shared interface.</p><p class="project-meta">FastAPI · PostgreSQL · Docker · observability</p></article>
         <article class="project"><h3>Forest restoration</h3><p>A personal project started in 2015 to restore a semi-dry forest on Réunion Island.</p><p class="project-meta">Ecology · fieldwork · long term</p></article>
         <article class="project"><h3>Audiovisual creation</h3><p>Short-film production and work with the Urban Nature musicians' collective, combining video, editing and experimentation.</p><p class="project-meta">Film · editing · collective</p></article>
       </div>

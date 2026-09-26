@@ -50,11 +50,34 @@
     </section>
 
     <section class="content-section" id="projets" aria-labelledby="projets-title">
-      <h2 id="projets-title">Projets personnels</h2>
-      <p class="section-intro">Mes projets personnels prolongent mes intérêts techniques, scientifiques et artistiques. Les applications ne sont pas publiques.</p>
+      <h2 id="projets-title">Projets</h2>
+      <p class="section-intro">Une sélection de projets techniques, scientifiques et artistiques. Certains sont des prototypes privés ou encore en développement.</p>
       <div class="project-list">
+        <article class="project project-featured">
+          <h3>Bookworm · analyse NLP de livres</h3>
+          <p>Outil en ligne de commande pour analyser des œuvres du domaine public issues de Project Gutenberg. Le cœur algorithmique est construit sans LLM ni API d'analyse : pondération TF-IDF, similarité cosinus et résumé extractif sont implémentés à la main ; spaCy est utilisé de façon ciblée pour la reconnaissance d'entités.</p>
+          <ul class="project-points">
+            <li>Diversité lexicale et entités nommées</li>
+            <li>Similarité entre 21 livres et thèmes par section</li>
+            <li>Résumé extractif, fiche complète et cache local</li>
+          </ul>
+          <p class="project-meta">Projet Epitech · Python · NLP classique · TF-IDF</p>
+        </article>
+        <article class="project project-featured">
+          <h3>Joja · analyse et prédiction de commandes</h3>
+          <p>Analyse de 32,4 millions de lignes de produits issues du jeu de données Instacart, depuis la validation et l’optimisation des données jusqu’à la restitution dans un tableau de bord interactif Dash et Plotly.</p>
+          <ul class="project-points">
+            <li>Analyse exploratoire de 3,4 millions de commandes</li>
+            <li>Prédiction du prochain panier par fréquence et récence</li>
+            <li>Associations de produits par support, confiance et lift</li>
+          </ul>
+          <p class="project-meta">Data analysis · prédiction · Dash · Plotly · Parquet</p>
+        </article>
         <article class="project"><h3>Lecteur RSS</h3><p>Centralise des articles, repère les doublons, produit des résumés avec l'IA et compare l'évolution des sujets dans une collection de sources.</p><p class="project-meta">Veille · données · LLM</p></article>
         <article class="project"><h3>Gestionnaire documentaire</h3><p>Indexe des documents locaux, permet la recherche plein texte et signale les classements qui nécessitent une vérification manuelle.</p><p class="project-meta">Recherche · indexation · revue humaine</p></article>
+        <article class="project"><h3>Stockety Cricket</h3><p>Tableau de bord d'étude des marchés et laboratoire ML comparant des baselines, des règles et des régressions logistiques au moyen d'un backtest walk-forward.</p><p class="project-meta">Data · séries temporelles · évaluation ML</p></article>
+        <article class="project"><h3>Vigil</h3><p>Prototype local d'audit de dépendances pour les assistants de développement : vérification via OSV, suivi de la fraîcheur des données et rapports explicitant les limites de couverture.</p><p class="project-meta">Sécurité · dépendances · MCP</p></article>
+        <article class="project"><h3>Sentinel</h3><p>Poste de monitoring et de reporting pour suivre conteneurs, services HTTP, bases PostgreSQL et métriques système depuis une interface commune.</p><p class="project-meta">FastAPI · PostgreSQL · Docker · observabilité</p></article>
         <article class="project"><h3>Restauration forestière</h3><p>Projet personnel engagé depuis 2015 autour de la restauration d'une forêt semi-sèche à La Réunion.</p><p class="project-meta">Écologie · terrain · long terme</p></article>
         <article class="project"><h3>Création audiovisuelle</h3><p>Réalisation de courts métrages et participation au collectif de musiciens Urban Nature, entre vidéo, montage et expérimentation.</p><p class="project-meta">Cinéma · montage · collectif</p></article>
       </div>
