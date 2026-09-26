@@ -9,6 +9,7 @@ Open `index.html` locally or serve this folder with any static-file server. The 
 ## Update the content
 
 - Edit the French and English pages together so their claims stay aligned.
+- The pages now cover skills, studies, self-directed learning, selected work experience, and the hackathon approach. Course listings describe learning, not automatically earned certifications.
 - The challenge link points to [Agorize](https://hackathons-artefactadoptai.agorize.com/fr/challenges/hackathon-desinformation-souverainete-democratique1).
 - Older page URLs are small redirects to the new site, so existing bookmarks continue to work.
 - The site intentionally has no photo, résumé, phone number, or email address. Contact links go to GitHub and Agorize.
