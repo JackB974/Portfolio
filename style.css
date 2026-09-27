@@ -197,14 +197,6 @@ h1 {
   color: var(--muted);
 }
 
-.intro .profile-tagline {
-  margin: -.65rem 0 1.5rem;
-  color: var(--accent) !important;
-  font-size: clamp(1rem, 1.5vw, 1.15rem);
-  font-weight: 650;
-  letter-spacing: .015em;
-}
-
 .intro .summary {
   max-width: 800px;
   color: var(--text) !important;
