@@ -94,19 +94,14 @@ h1, h2, h3, p { margin-top: 0; }
   text-decoration: none;
 }
 
-.site-name::before {
-  display: grid;
-  place-items: center;
-  width: 82px;
+.site-name img {
+  display: block;
+  width: 96px;
   aspect-ratio: 1;
-  content: 'A';
-  color: #fff;
+  object-fit: cover;
   border: 2px solid rgba(255, 255, 255, .82);
   border-radius: 50%;
-  background: linear-gradient(145deg, var(--sidebar-soft), #09090a);
   box-shadow: 0 0 0 7px rgba(255, 255, 255, .09);
-  font-size: 2rem;
-  font-weight: 750;
 }
 
 .main-nav {
@@ -200,6 +195,14 @@ h1 {
 .intro p:not(.overline) {
   max-width: 760px;
   color: var(--muted);
+}
+
+.intro .profile-tagline {
+  margin: -.65rem 0 1.5rem;
+  color: var(--accent) !important;
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  font-weight: 650;
+  letter-spacing: .015em;
 }
 
 .intro .summary {
@@ -590,11 +593,10 @@ h1 {
     font-size: 1.05rem;
   }
 
-  .site-name::before {
+  .site-name img {
     width: 38px;
     border-width: 1px;
     box-shadow: none;
-    font-size: .95rem;
   }
 
   .language {
