@@ -269,6 +269,11 @@ h1 {
   font-size: .92rem;
 }
 
+.skill-list > .skill-wide {
+  grid-column: 1 / -1;
+  min-height: 0;
+}
+
 .section-intro {
   max-width: 720px;
   margin-bottom: 1.8rem;
